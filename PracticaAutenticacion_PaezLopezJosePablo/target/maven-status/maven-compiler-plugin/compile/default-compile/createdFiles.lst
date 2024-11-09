@@ -1,0 +1,6 @@
+filtros\FiltroAutenticacion.class
+com\mycompany\practicaautenticacion_paezlopezjosepablo\resources\JakartaEE10Resource.class
+com\mycompany\practicaautenticacion_paezlopezjosepablo\JakartaRestConfiguration.class
+servlets\Login.class
+servlets\RegistrarPokemon.class
+bean\Pokemon.class

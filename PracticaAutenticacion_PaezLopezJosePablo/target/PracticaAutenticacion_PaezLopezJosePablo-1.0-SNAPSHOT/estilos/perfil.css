@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 nov. 2024, 00:48:20
+    Author     : Jose Pablo
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    margin-top: 0px;
+    color: white;
+    padding-top: 10px;
+}
+
+body {
+    background-color: #323232;
+    font-family: "Montserrat";
+    margin: 0px;
+}
+
+.contenedor-tabla {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+header {
+    text-align: center;
+    font-size: 45px; 
+    font-family: Helvetica; 
+    background-color: #4d4d4d; 
+    height: 120px;
+}
+
+table {
+    width: 70%;
+    background-color: white; 
+    border-radius: .8rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 800px;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    background-color: #B3B3B3;
+}
+
+table, table th, table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.numero-d {
+    width: 31px;
+    background-color: #FF0000;
+    color: white;
+    font-weight: 600;
+}
+
+.boton {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 13px 15px;
+    border-radius: 5rem;
+}
+
+.gris {
+    font-weight: 600;
+    background-color: #B3B3B3;
+    color: black;
+    cursor: pointer;
+}
+
+.contenedor-boton {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}

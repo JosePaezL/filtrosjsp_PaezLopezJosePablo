@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 nov. 2024, 00:48:11
+    Author     : Jose Pablo
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #323232;
+    font-family: "Montserrat";
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.contenedor-login {
+    background-color: white;
+    padding: 1rem 1rem;
+    width:300px;
+    border-radius: .8rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: .3rem;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.boton {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 13px 15px;
+    border-radius: 5rem;
+    width: 50%;
+}
+
+.rojo {
+    font-weight: 600;
+    background-color: #FF0000;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
